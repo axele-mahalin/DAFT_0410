@@ -6,15 +6,11 @@
 - [Project Description](#project-description)
 - [Mastermind](#games)
 - [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+- [How to use it](#How-to-use-it)
 
 ## Project Description
 On this project we work in groups and create our first software in Python!
 We choose the Masterming game 
-
-
 
 ## Mastermind
 Mastermind  is a code-breaking game.It resembles an earlier pencil and paper game called Bulls and Cows that may date back a century.
