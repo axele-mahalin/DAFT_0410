@@ -1,4 +1,4 @@
-<img src="Mastermind.jpeg" alt="Mastermind" width="100"/>
+<img src="Mastermind.jpeg" alt="Mastermind" width="400"/>
 
 # Mastermind !!
 
@@ -28,7 +28,7 @@ During this project we succeed to :
 * Get used to public presentations. 
 
 ## How to use it ?
-The computer choose a conmbination of 4 elements with colors from the list: Black, Green, Blue, White, Yellow, Red and Pink
+The computer choose a combination of 4 elements with colors from the list: Black, Green, Blue, White, Yellow, Red and Pink
 The user is asked to gess the combination in less or 12 tries.
 He is asked to input his proposition using single letters: 
 ‘k' for Black ; ‘g’ for Green ; ‘b' for Blue ; ‘w’ for White ; ‘y’ for Yellow ; 'r’ for Red ; 'p’ for Pink
