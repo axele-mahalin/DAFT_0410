@@ -1,85 +1,39 @@
-<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
+<img src="Mastermind.jpeg" alt="Mastermind" width="100"/>
 
-# Build your own game! WOW
+# Mastermind !!
 
 ## Content
 - [Project Description](#project-description)
-- [Games](#games)
+- [Mastermind](#games)
 - [Project Goals](#project-goals)
 - [Requirements & Deliverables](#requirements-&-deliverables)
 - [Schedule](#schedule)
 - [Presentation](#presentation)
 
 ## Project Description
-In this project, you will work in groups and create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+On this project we work in groups and create our first software in Python!
+We choose the Masterming game 
 
-You will also present your game to the class. 
 
-## Games
-You must come to an agreement with your colleagues so that each of you develops one of the following games:
 
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
-* Battleships
-* Pokemon fight simulator
+## Mastermind
+Mastermind  is a code-breaking game.It resembles an earlier pencil and paper game called Bulls and Cows that may date back a century.
 
 ## Project Goals
-During this project you will:
-* Fork and manage your own git repository. 
-* Plan your project.
-* Build your own code from scratch. 
+During this project we succeed to :
+* Fork and manage our own git repository. 
+* Plan our project.
+* Build our own code from scratch. 
 * Put into practice the basic Python concepts learned during the week.
 * Get used to public presentations. 
 
-## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are: 
-* The project must be planned, using Jira. Remember that you **CAN'T CODE** until your project is planned. 
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
-
-The **mandatory** deliverables that you must turn in are:
-* Project plan
-* Game's alghoritm (flowchart or a step-by-step plan)
-* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
-* Link to Jira or picture of your Kanban Board. Include the link or picture in the README file.
-
-The **deadline** to turn in the deliverables is right before the project presentations. 
-
-## Schedule
-| Phase 1 |  
-|:--------:|
-* Choose your game.
-* Plan your project in Jira
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ta-data-bcn/Project-Week-1-Build-Your-Own-Game/blob/master/your-project/README.md) for your README file in this repository. Remember to keep the README up-to-date. 
-* Create flowchart and pceudocode
-* Once you finish, start coding!
-
-| Phase 2 |  
-|:--------:|
-* In the evening, start preparing the slides for Monday's presentation.  Please, keep in mind the time limitations for your pitch.
-
-| Phase 3 |  
-|:--------:|
-* Presentation time! (On Monday) 
-
-## Presentation
-The presentation time limit is **15 minutes**! You will have **10 minutes** to present your project to the class and then **5 minutes** for Q&A. 
-
-The slides of your presentation must include the content listed below and a demo of your game:
-
-* Title of the project + Student name  
-* Description of your game  
-* Challenges  
-* Process  
-* Highlights  
-* Demo (ONE MINUTE)
+## How to use it ?
+The computer choose a conmbination of 4 elements with colors from the list: Black, Green, Blue, White, Yellow, Red and Pink
+The user is asked to gess the combination in less or 12 tries.
+He is asked to input his proposition using single letters: 
+‘k' for Black ; ‘g’ for Green ; ‘b' for Blue ; ‘w’ for White ; ‘y’ for Yellow ; 'r’ for Red ; 'p’ for Pink
+The computer will respond with the number of well placed elements, and the numbers of missplaced element with the right color.
+The user will have only 12 tries to gess the combinaison
 
 ## Good luck!
 
