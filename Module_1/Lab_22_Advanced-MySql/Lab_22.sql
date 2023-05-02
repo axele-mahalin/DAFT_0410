@@ -12,9 +12,9 @@ left join publications.sales as s
 	on s.title_id = t.title_id
 ;
 
-#Step 2: Aggregate the total royalties for each title and author --> à continuer
+#Step 2: Aggregate the total royalties for each title and author
 
-select a.au_id, ta.title_id, t.advance * ta.royaltyper / 100 as advance, sum(t.price * s.qty * t.royalty / 100 * ta.royaltyper / 100) as sum_royalties
+select a.au_id, ta.title_id, sum(t.price * s.qty * t.royalty / 100 * ta.royaltyper / 100) as sum_royalties
 from publications.titleauthor as ta
 left join publications.authors as a
 	on a.au_id = ta.au_id
